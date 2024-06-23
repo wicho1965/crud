@@ -13,5 +13,13 @@
     <button type="button" class="btn btn-outline-dark">Dark</button>
     <p>este era mi boton que es nuevos para vite</p>
     <p><h1>este es mi proyecto</h1></p>
-@endsection
-
+    <div>
+        <i class="bi bi-person-circle"></i>
+    </div>
+    <div>
+        <i class="bi bi-person-vcard"></i>
+    </div>
+    <div>
+        <i class="bi bi-bar-chart-line-fill"></i>
+    </div>
+    @endsection

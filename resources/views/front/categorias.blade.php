@@ -1,6 +1,6 @@
 @extends('layout.frontlayout')
 
-@section('titulo', 'Categorias')
+@section('titulo','categorias')
 
 @section('content')
     desde categorias
