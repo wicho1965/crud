@@ -7,10 +7,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Blog</a>
+            <a class="nav-link active" href="{{ route('blog') }}">Blog</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,6 +37,16 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     -->
+    
+      </div>
+    <a href="{{ route('login') }}" class="link-light" title="Login de Usuarios">
+      <i class="bi bi-person-square ps-2 fs-3"></i>
+    </a>
+      <a href="{{ route('registro') }}" class="link-light" title="Registro de Usuarios">
+        <i class="bi bi-r-square ps-2 fs-3"></i>
+      </a>
+  
+  </div>
 
       </div>
     </div>
