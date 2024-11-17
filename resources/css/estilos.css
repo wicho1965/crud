@@ -1,0 +1,86 @@
+/* estilos personalizados de css */
+
+.main_log{
+    padding: 10%;
+    width: 100%;
+    height: 100vh;
+    background: #364aba;
+    background: linear-gradient(180deg, #364aba, #0f1794);
+}
+
+input{
+    font: inherit;
+}
+
+.form{
+    margin: auto;
+    padding: 3rem 1.5rem;
+    background-color: #fff;
+    width: min(350px, 90%);
+    border: 1px solid #222;
+    border-radius: 2%;
+}
+
+.form_title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.form_inputs{
+    margin: 2rem 0 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    color: #6b6b6b;
+}
+
+.form_label{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "input";
+}
+
+.form_input{
+    grid-area: input;
+
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d7d0d0;
+    padding: .7rem 1.5rem;
+    color: #6b6b6b;
+}
+
+.form_text{
+    grid-area: input;
+    z-index: 100;
+
+    width: max-content;
+    height: 100%;
+    margin-left: 1rem;
+    padding: 0 .5rem;
+
+    display: flex;
+    align-items: center;
+    transform-origin: left center;
+    transition: transform .3s;
+}
+
+.form_input:focus + .form_text,
+.form_input:not(:placeholder-shown) + .form_text{
+    background-color: white;
+    transform: translateY(-50%) scale(.7);
+}
+
+.form_submit{
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #198754;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form_submit:hover{
+    background-color: #146c43;
+}

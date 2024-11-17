@@ -1,3 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './bootstrap.css';
+@import './iconos/font/bootstrap-icons.css';
+@import './estilos.css';
+
